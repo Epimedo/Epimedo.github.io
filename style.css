@@ -1,0 +1,129 @@
+ html { overflow:  hidden; }
+
+.top {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.centered {
+  text-align: center;
+}
+
+[href] {
+  text-decoration: none;
+}
+[href]:hover {
+  text-decoration: underline;
+}
+
+.vt {
+  float: right;
+  width: 60px;
+  heigt: 20px;
+  background-color: #4285f4;
+  color: white;
+  padding-right: 10px;
+  margin-right: 25px;
+}
+
+.vt:hover {
+  text-decoration: none;
+}
+
+.vg {
+  float: right;
+  padding-right: 10px;
+  color: black;
+}
+
+.vb {
+  float: left;
+  padding-left: 10px;
+  color: #808080;
+}
+
+.bot .vg {
+  color: #808080
+}
+
+.table {
+  padding-bottom: 10px;
+}
+.parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 0;
+
+    &:before {
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        content: '';
+    }
+}
+
+#country {
+  color: #808080;
+  position: relative;
+  left:0;
+  top:0;
+  padding-left: 10px;
+
+}
+.block {
+    display: inline-block;
+    white-space: normal;
+    vertical-align: middle;
+    text-align: left;
+
+    img {
+        display: block;
+        border: none;
+    }
+}
+
+#srch {
+  padding-top:  15px;
+  padding-bottom: 15px;
+  width: 300px;
+  border: none;
+}
+
+.raz {
+  color: #C0C0C0;
+  height: 27px;
+  width: 110px;
+}
+
+.raz:hover{
+  color: black;
+}
+.but2 {
+  float: right;
+  margin-right: 20px;
+}
+
+.but1 {
+  float: left;
+  margin-left: 20px;
+}
+
+.bot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #DCDCDC;
+  color: black;
+}
+
+#keyb {
+  float: right;
+}
